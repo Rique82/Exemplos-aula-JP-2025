@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Minha primeira página HTML</h1>
+        <a href="./page.html">outra pagina</a>
+    </header>
+    <!-- Conteudo da pagina -->
+    <main>
+        <section>
+            <h2>Seção de Listas:</h2>
+
+            <h3>Lista não ordenada</h3>
+            <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul>
+
+            <h3>Lista ordenada</h3>
+            <ol>
+                <li>primeiro item</li>
+                <li>segundo item</li>
+                <li>terceiro item</li>
+            </ol>
+
+        </section>
+        <section>
+            <h2>Imagens e Videos</h2>
+            
+            <h3>Imagem</h3>
+            <figure>
+                <img src="https://img.freepik.com/fotos-premium/um-cachorro-na-praia-ao-por-do-sol_865967-24680.jpg" alt="image de um cachorro na praia" title="cachorro fudido" width="300" height="200">
+            </figure>
+
+            <h3>Video</h3>
+            <iframe width="400" height="200" src="https://www.youtube.com/embed/_RntONLBl0c?si=edF5QPpobj8CTex6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>Formulário Simples</h2>
+            <form>
+
+                <div>
+                    <Label for="nome">Nome:</Label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div>
+                    <Label for="email">Email:</Label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div>
+                    <Label for="mensagem">Mensagem:</Label>
+                    <textarea name="mensagem" id="mensagem" required></textarea>
+                </div>
+
+                <div>
+                    <Label for="idade">Idade:</Label>
+                    <input type="number" name="idade" id="idade" min="18" max="100" required>
+                </div>
+
+                <div>
+                    <Label for="cor">Cor:</Label>
+                    <input type="color" name="cor" id="cor" required>
+                </div>
+
+                <div>
+                    <Label for="anexo">Anexo:</Label>
+                    <input type="file" name="anexo" id="anexo">
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <p>Minha primeira pagina - &copy; Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
